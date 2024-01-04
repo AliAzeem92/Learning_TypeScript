@@ -1,9 +1,9 @@
 "use strict";
-// Check Given Number is Even Or Odd
-var num = 9;
-if (num % 2 == 0) {
-    console.log(`${num} is Even`);
+// Check the person is eligible to vote based on age
+var personAge = 21;
+if (personAge > 18) {
+    console.log("Person is eligible");
 }
 else {
-    console.log(`${num} is Odd`);
+    console.log("Person is not eligible");
 }
