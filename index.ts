@@ -1,11 +1,9 @@
-// Check Given Number is +ve, -ve or zero
+// Check Given Number is Even Or Odd
 
-var num1: number = 0;
+var num: number = 9;
 
-if (num1 > 0) {
-  console.log(`${num1} is Positive`);
-} else if (num1 < 0) {
-  console.log(`${num1} is Negative`);
-} else if (num1 == 0) {
-  console.log(`${num1} is Zero`);
+if (num % 2 == 0) {
+  console.log(`${num} is Even`);
+} else {
+  console.log(`${num} is Odd`);
 }

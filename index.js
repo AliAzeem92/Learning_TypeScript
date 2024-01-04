@@ -1,12 +1,9 @@
 "use strict";
-// Check Given Number is +ve, -ve or zero
-var num1 = 0;
-if (num1 > 0) {
-    console.log(`${num1} is Positive`);
+// Check Given Number is Even Or Odd
+var num = 9;
+if (num % 2 == 0) {
+    console.log(`${num} is Even`);
 }
-else if (num1 < 0) {
-    console.log(`${num1} is Negative`);
-}
-else if (num1 == 0) {
-    console.log(`${num1} is Zero`);
+else {
+    console.log(`${num} is Odd`);
 }
