@@ -1,13 +1,13 @@
-// Program to convert temprature from Celsius to Fahranheit  using Function.
+// Program that calculates the marks percentage using function.
 
-function cToFTemp(temp: number) {
-  const tempF = temp * (9 / 5) + 32;
-
-  console.log(tempF);
+function perCal(num: number) {
+  var marks: number = (num / 500) * 100;
+  console.log(marks);
 }
 
-cToFTemp(67);
+perCal(63);
 
-cToFTemp(832);
-
-cToFTemp(72);
+perCal(363);
+perCal(323);
+perCal(82);
+perCal(421);

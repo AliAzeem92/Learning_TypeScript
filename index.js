@@ -1,9 +1,11 @@
 "use strict";
-// Program to convert temprature from Celsius to Fahranheit  using Function.
-function cToFTemp(temp) {
-    const tempF = temp * (9 / 5) + 32;
-    console.log(tempF);
+// Program that calculates the marks percentage using function.
+function perCal(num) {
+    var marks = (num / 500) * 100;
+    console.log(marks);
 }
-cToFTemp(67);
-cToFTemp(832);
-cToFTemp(72);
+perCal(63);
+perCal(363);
+perCal(323);
+perCal(82);
+perCal(421);
