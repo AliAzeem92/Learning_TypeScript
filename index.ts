@@ -1,13 +1,16 @@
-// Program that calculates the marks percentage using function.
+// Program to find the the sum of 10, 20 by function. But the result must be "50". And add '5' after calculation
 
-function perCal(num: number) {
-  var marks: number = (num / 500) * 100;
-  console.log(marks);
+function sum(num1: number, num2: number) {
+  var result: number = num1 + num2;
+  return result;
 }
 
-perCal(63);
+var sumValue: number = sum(10, 20);
+sumValue += 5;
+console.log("Sum is", sumValue);
 
-perCal(363);
-perCal(323);
-perCal(82);
-perCal(421);
+// Program to find the the sum of 30, 20 by function. But the result must be "50". And add '40' after calculation
+
+var sumValue2: number = sum(30, 20);
+sumValue2 += 40;
+console.log("sum is", sumValue2);
