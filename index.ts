@@ -1,6 +1,4 @@
-// use of backtick
+var num1 : number = 123
+num1 += 20;
 
-var userName = "Ali";
-var userName2 = `${userName} Azeem`;
-
-console.log(userName2);
+console.log(num1);

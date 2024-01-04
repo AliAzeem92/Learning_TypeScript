@@ -1,5 +1,4 @@
 "use strict";
-// use of backtick
-var userName = "Ali";
-var userName2 = `${userName} Azeem`;
-console.log(userName2);
+var num1 = 123;
+num1 += 20;
+console.log(num1);
