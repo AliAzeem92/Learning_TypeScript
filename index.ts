@@ -1,10 +1,6 @@
-// Program to find the the sum of two number 8 & 3 by function
+// Program to find the the sum of two by function. But the result must be "50"
 
-function numSum() {
-  // values
-  var num1: number = 3;
-  var num2: number = 8;
-
+function numSum(num1: number, num2: number) {
   // sum
 
   var result: number = num1 + num2;
@@ -15,4 +11,4 @@ function numSum() {
 
 // function Call
 
-numSum();
+numSum(10, 40);
