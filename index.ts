@@ -1,4 +1,8 @@
-var num1 : number = 123
-num1 += 20;
+// Program to find "area of rectangle"
 
-console.log(num1);
+const lenght = 7;
+const width = 6;
+
+const areaOfRectangle = lenght * width;
+
+console.log(areaOfRectangle);
