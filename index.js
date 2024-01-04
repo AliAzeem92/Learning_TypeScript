@@ -1,9 +1,4 @@
 "use strict";
-// Check the person is eligible to vote based on age
-var personAge = 21;
-if (personAge > 18) {
-    console.log("Person is eligible");
-}
-else {
-    console.log("Person is not eligible");
-}
+// Calculate the mathamatical equation
+const equation = ((10 + 5) * 3 - 2) / ((4 % 3) - 7);
+console.log(equation);
