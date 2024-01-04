@@ -1,4 +1,20 @@
 "use strict";
-// Calculate the mathamatical equation
-const equation = ((10 + 5) * 3 - 2) / ((4 % 3) - 7);
-console.log(equation);
+// Switch Statement
+var classSection = "j";
+switch (classSection) {
+    case "a || A":
+        console.log("Your will be on Sunday");
+        break;
+    case "b || B":
+        console.log("Your will be on Monday");
+        break;
+    case "a || C":
+        console.log("Your will be on Tusday");
+        break;
+    case "d || D":
+        console.log("Your will be on Wednusday");
+        break;
+    default:
+        console.log(`${classSection} is invalid section`);
+        break;
+}
