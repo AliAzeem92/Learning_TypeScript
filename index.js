@@ -1,20 +1,13 @@
 "use strict";
-// Switch Statement
-var classSection = "j";
-switch (classSection) {
-    case "a || A":
-        console.log("Your will be on Sunday");
-        break;
-    case "b || B":
-        console.log("Your will be on Monday");
-        break;
-    case "a || C":
-        console.log("Your will be on Tusday");
-        break;
-    case "d || D":
-        console.log("Your will be on Wednusday");
-        break;
-    default:
-        console.log(`${classSection} is invalid section`);
-        break;
+// Program to find the the sum of two number by function
+function numSum() {
+    // values
+    var num2 = 8;
+    var num1 = 3;
+    // sum
+    var result = num1 + num2;
+    // show
+    console.log("result is", result);
 }
+// function Call
+numSum();
