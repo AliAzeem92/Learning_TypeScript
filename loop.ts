@@ -1,5 +1,15 @@
-// For Loop
+// Do-While Loop
+console.log("do1");
 
-for (var num = 1; num <= 10; num++) {
-  console.log(num);
-}
+let do1 = 1;
+do {
+  console.log(do1, "- Do-While Loop");
+  do1++;
+} while (do1 <= 10);
+console.log("do2");
+
+let do2 = 11;
+do {
+  console.log(do2, "- Do-While Loop");
+  do2++;
+} while (do2 <= 10);
