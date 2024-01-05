@@ -1,20 +1,17 @@
-var studentRollNo: number[] = [1, 2, 3, 4, 5];
-
-console.log(studentRollNo[2]);
-
-var sum: number = studentRollNo[2] + studentRollNo[1];
-
-console.log(sum);
-
-studentRollNo[0] = 0;
-
-var sum2: number = studentRollNo[0] + studentRollNo[1];
-
-console.log(sum2);
+// Built-in Fuctions
 
 var studentName: string[] = ["Ali", "Zain", "Raheeq", "Zair"];
 
-console.log(studentName[3]);
+// To add new Variable at the end of array
 
-studentName[3] = "Ahmad";
-console.log(studentName[3]);
+function addStudentName(addName: string) {
+  studentName[studentName.length] = addName;
+}
+
+addStudentName("Umar");
+addStudentName("Naveed");
+addStudentName("Azeem");
+addStudentName("Mushayit");
+addStudentName("Muneeb");
+
+console.log(studentName);
