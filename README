@@ -1,0 +1,13 @@
+TASK
+// function calculateStatistics(numbers: number[]): void {
+// Calculate and print the sum of the numbers
+
+    // Calculate and print the average of the numbers
+
+    // Identify and print the largest number
+
+}
+
+// Example usage:
+// const numberArray: number[] = [10, 5, 8, 20, 3];
+// calculateStatistics(numberArray);
